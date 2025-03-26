@@ -1,10 +1,1757 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <title>My best site ever</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Milkavita - молочное производство, сохраняя традиции</title>
+
+	<link rel="stylesheet" href="css/styles.css?ver=9">
+	<script src="js/index.js" defer></script>
+	<script src="js/certificates-slider.js"></script>
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+	<!-- Swiper JS -->
+	<script src="js/swiper/swiper-bundle.min.js" defer></script>
+
+	<!-- Предзагрузка критических изображений -->
+	<link rel="preload" as="image" href="images/book_cover.jpg">
+	<link rel="preload" as="image" href="images/fon.jpg">
+	<!-- Предзагрузка шрифта -->
+	<link rel="preload" href="fonts/ofont.ru_WienLight.ttf" as="font" type="font/ttf" crossorigin>
 </head>
-<body>
-$END$
+
+<body onload="startpage()" style="background-image: url(images/fon.jpg);">
+
+	<div id="wrapper">
+		<div id="book_environment">
+			<div id="book">
+				<div class="page_project page-first page-open" data-number="0">
+					<!-- Обложка -->
+					<div class="page_side_left">
+						<img src="images/book_cover.jpg" alt="Milkavita" class="picture_book" loading="lazy">
+					</div>
+					<!-- О вреде и пользе молока -->
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/vredIpolza.png" alt="milk" class="content-image-full"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="1">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/history/первый.png" alt="milk" class="content-image-full" loading="lazy">
+
+							<div class="page_number">1</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/третий.png" alt="milk" class="content-image-full" loading="lazy">
+
+							<div class="page_number">2</div>
+						</div>
+					</div>
+				</div>
+				<div class="page_project page-open" data-number="1">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="content-wrapper">
+								<img src="images/history/четвертый.png" alt="milk" class="content-image-full"
+									loading="lazy">
+
+							</div>
+							<div class="page_number">3</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/пятый.png" alt="milk" class="content-image-full" loading="lazy">
+							<div class="page_number">4</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="1">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="content-wrapper">
+								<img src="images/history/шестой.png" alt="milk" class="content-image-full"
+									loading="lazy">
+
+							</div>
+							<div class="page_number">5</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/седьмой.png" alt="milk" class="content-image-full" loading="lazy">
+							<div class="page_number">6</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="1">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="content-wrapper">
+								<img src="images/history/восьмой.png" alt="milk" class="content-image-full"
+									loading="lazy">
+
+							</div>
+							<div class="page_number">7</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Как появилось молоко?</h1>
+							<h2>История молока</h2>
+							<p>
+								Испокон веков крестьянин старался обеспечить свою семью сначала хлебом и молоком, а
+								уж
+								потом «чем бог пошлет». Отсюда и
+								извечная мечта русского народа о «молочных реках и кисельных берегах» – символе
+								сытости
+								и благополучия. Человек открыл
+								для себя молоко примерно еще в 10-е тысячелетие до нашей эры, о чем свидетельствуют
+								раскопки археологов, предания,
+								легенды, сказки и мифы. В ходе раскопок были найдены специальные подойники и
+								отстойники
+								для приготовления творога. Также
+								об использовании молока свидетельствуют рисунки, на которых мужчины доят коров, на
+								стенах Египетских пирамид.
+							</p>
+							<img src="images/history/1.png" style="height: 240px;" alt="milk"
+								class="content-image-large">
+							<div class="page_number">8</div>
+						</div>
+					</div>
+				</div>
+				<div class="page_project page-open" data-number="1">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="content-wrapper">
+								<h2>Сыр в мифологии</h2>
+								<p>
+									В индийской мифологии есть легенда о «пахтанье Молочного океана». Боги взбивали
+									огромную поверхность, желая получить
+									напиток бессмертия. В качестве ступы была гора Мандара. Из потревоженного
+									молочного
+									океана появились чудесные вещи –
+									солнце, луна и священная корова изобилия, драгоценный камень и белый мифический
+									конь. Затем океан сгустился в масло, и
+									наконец, выделил из себя напиток бессмертия и вечной молодости – амрита.
+								</p>
+								<img src="images/history/Awatoceanofmilk01.JPG" style="height: 350px;" alt="milk"
+									class="content-image-large" loading="lazy">
+							</div>
+							<div class="page_number">9</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<p>
+								Один из африканских мифов гласит, что из капли молока зародилась Вселенная. На
+								Земле, обещанной Богом еврейскому народу,
+								реки текут медом и молоком. По греческому преданию, Геракл питался только молоком и
+								сыром. Такое трепетное отношение к
+								молоку вполне объяснимо: для кочевого племени молоко, масло, сыр – основы
+								существования, возможность быть сытыми, не
+								вредя животным и не убивая их. Падение удоев ставило племена на грань вымирания.
+							</p>
+							<h2>Факты о молоке в Древнем мире</h2>
+							<ul>
+								<li>Гиппократ назвал молоко лекарством и говорил: «В молоке – совершенство».</li>
+								<li>Царица Египта Клеопатра ежедневно принимала молочные ванны, чтобы сохранить
+									красоту и молодость.</li>
+								<li>Академик Павлов называл молоко пищей, приготовленной самой природой.</li>
+								<li>Аристотель считал, что в молоке есть женская кровь, "сварившаяся" под влиянием
+									телесного жара, а потребитель женской
+									крови в том или ином виде сам становится женщиной.</li>
+							</ul>
+
+							<div class="page_number">10</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="2">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/history/фрески.webp" alt="milk" class="content-image-large" loading="lazy">
+							<h2>Появление молочных заводов в России</h2>
+							<p>Первые прообразы современных молокозаводов в России возникли в XIX веке в губерниях с
+								развитым молочным скотоводством.
+								Сподвижник известного русского полководца А. В. Суворова Н. Н. Муравьёв, выйдя в
+								отставку, создал в 1807 г. в имении
+								«Осташево» под Москвой образцовый по тому времени скотный двор и «молочное
+								заведение».
+								Оно и считается первым молочным
+								заводом в России. В 1830 г. Н. Н. Муравьёв опубликовал «Наставление по управлению
+								скотными дворами», где излагал порядок
+								доения коров, охлаждения и хранения молока, а также доказывал целесообразность
+								развития
+								молочного дела в России. </p>
+							<div class="page_number">11</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<p>
+								В 1836
+								г. декабристы А. П. Беляев и братья А. А. и Н. А. Крюковы основали молочный завод в
+								Минусинске (Сибирь), где молоко,
+								получаемое от 200 коров, принадлежавших колонии, перерабатывали на сливки,
+								простоквашу,
+								варенец и масло.</p>
+							</p>
+							<img src="images/history/scale_1200.jfif" alt="milk" class="content-image-large"
+								loading="lazy">
+
+							<div class="page_number">12</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="16">
+					<div class="page_side_left">
+						<div class="working_area">
+							<h2>Н. В. Верещагин – создатель русского молочного дела</h2>
+							<p>Создателем русского молочного дела часто называют видного общественного деятеля
+								России
+								второй половины XIX века Н. В.
+								Верещагина. Н. В. Верещагин организовал в селе Едимоново Тверской губернии первую в
+								России школу молочного хозяйства.
+							</p>
+							<p>
+								За годы своего существования школа подготовила 1200 мастеров
+								маслоделия и сыроделия. Н. В. Верещагину также принадлежит первая попытка
+								организованного снабжения молоком населения
+								крупных городов. В 60-х годах XIX века он открыл в Петербурге на артельных началах
+								первую молочную. В эту молочную члены
+								артели доставляли молоко, а затем без особой обработки развозили его по магазинам и
+								отдельным потребителям. Так как
+								молоко было сырое, неохлаждённое, то оно часто скисало, не доходя до потребителя. По
+								этим причинам артельный завод был
+								закрыт. В эти годы городское население Москвы, Петербурга и других крупных городов
+								снабжалось молоком, полученным от
+								коров, содержавшихся в городах. В то время было широко распространено содержание
+								дойных
+								коров при пожарных командах.
+								Между ними существовало как бы соревнование за выращивание лучших высокопродуктивных
+								животных. В 1884 г. в Москве
+								имелось более 6000 коров.
+							</p>
+							<div class="page_number">13</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/2.png" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">14</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="3">
+					<div class="page_side_left">
+						<!-- Картинки коров -->
+						<div class="working_area">
+							<img src="images/history/cown.jpg" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">15</div>
+						</div>
+					</div>
+					<!-- Сказки -->
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>«История народных сказок, легенд и праздников»</h1>
+							<h2 style="text-align: left;">Иван Быкович – Иван Коровий Сын</h2>
+							<p>
+								Сказка о богатыре, рожденном от коровы. Иван Быкович — символ силы и храбрости,
+								побеждающий чудовищ и восстанавливающий
+								справедливость.
+							</p>
+							<h2 style="text-align: left;">«Крошечка-Хаврошечка»</h2>
+							<p>
+								Русская народная сказка о сироте, которой помогает волшебная корова. Эта история о
+								доброте, терпении и вознаграждении за
+								труд.
+							</p>
+							<h2 style="text-align: left;">«Молочные реки – кисельные берега»</h2>
+							<p>
+								Образ счастливой жизни в сказках, где изобилие и достаток выражаются в реке из
+								молока и
+								берегах из киселя.
+							</p>
+							<h2 style="text-align: left;">«Легенды о коровах и славянские праздники»</h2>
+							<p>
+								У славян корова была символом достатка и плодородия. В праздники, такие как Семик и
+								Купала, коров украшали, а молоко
+								считалось даром богов.
+							</p>
+
+							<div class="page_number">16</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Картинка коровы наклон -->
+				<div class="page_project page-open" data-number="4">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/history/3.png" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">17</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Содержание</h1>
+							<div class="book_content">
+								<a class="link-to-page" href="#section1">
+									<p class="content-text">
+										<img src="images/first_content.png" alt="first_content" class="content-img">
+										История развития молочного<br> производства в городе Гомеле
+									</p>
+								</a>
+								<a class="link-to-page" href="#section2">
+									<p class="content-text">
+										<img src="images/second_content.png" alt="second_content" class="content-img">
+										Продукция по Республике Беларусь
+									</p>
+								</a>
+								<a class="link-to-page" href="#section3">
+									<p class="content-text">
+										<img src="images/third_content.png" alt="third_content" class="content-img">
+										Продукция в дальнее и ближнее<br> зарубежье
+									</p>
+								</a>
+								<a class="link-to-page" href="#page-4">
+									<p class="content-text">
+										<img src="images/fourth_content.png" alt="fourth_content" class="content-img">
+										Знаки качества
+									</p>
+								</a>
+								<a class="link-to-page" href="#page-5">
+									<p class="content-text">
+										<img src="images/fiveth_content.png" alt="fifth_content" class="content-img">
+										Молочная база
+									</p>
+								</a>
+								<a class="link-to-page" href="#page-6">
+									<p class="content-text">
+										<img src="images/six_content.png" alt="sixth_content" class="content-img">
+										Игра «Весёлый молочник»
+									</p>
+								</a>
+							</div>
+							<div class="page_number">18</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="page_project page-open" data-number="5">
+					<!-- Содержание -->
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/history/cown3.jpg" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">19</div>
+						</div>
+					</div>
+					<!-- Раздел 1. История развития молочного производства -->
+					<div id="section1" class="page_side_right">
+						<div class="working_area">
+
+							<h1>Раздел 1. История развития молочного производства</h1>
+							<p>
+								Официальная история открытого акционерного общества «Милкавита» начинается 31
+								декабря
+								1982 года. Именно в этот день была
+								завершена стройка, а точнее, государственная комиссия подписала акт о сдаче в
+								эксплуатацию Гомельского молочного
+								комбината. Но на самом деле она начинается гораздо раньше.</p>
+							<img src="images/милкавита/milkavita_build/5.jpg" alt="Молочны	й завод"
+								class="content-image-large" loading="lazy">
+
+
+							<div class="page_number">20</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="6">
+					<!-- Описание первого молочного завода -->
+					<div class="page_side_left">
+						<div class="working_area">
+							<p>
+								Первое крупное предприятие по переработке молока в Гомеле было создано в 1927 году
+								на
+								базе артели «Молочная лавка»,
+								которую в последующем назвали «Центральная молочная». Для ее оснащения у немецкой
+								фирмы
+								«Астро-Верс» был закуплен
+								комплект оборудования. В 1929 году реконструкцию завершили. Мощность первого
+								молочного
+								завода составила порядка 12 тонн
+								молока в сутки.
+							</p>
+							<img src="images/милкавита/milkavita_build/2.jpg" alt="Бутылки с молоком"
+								class="content-image-large">
+
+							<div class="page_number">21</div>
+						</div>
+					</div>
+					<div class="page_side_right">
+						<div class="working_area">
+
+							<img src="images/милкавита/milkavita_build/15.jpg" alt="Бутылки с молоком"
+								class="content-image-large">
+							<p>
+								В годы Великой Отечественной войны здание завода было полностью
+								уничтожено, его восстановление
+								завершилось только в 1949 году.
+							</p>
+
+							<p>
+								В 1951 году осуществлена первая реконструкция ГМЗ, а в 1959-1963 гг. – вторая со
+								строительством на этой же
+								площадке двухэтажного корпуса.
+							</p>
+
+							<div class="page_number">22</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="7">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="image-row">
+								<img src="images/милкавита/milkavita_build/14.jpg" alt="Бутылки с молоком"
+									class="content-image">
+								<img src="images/милкавита/milkavita_build/10.jpg" alt="Бутылки с молоком"
+									class="content-image">
+							</div>
+							<img src="images/милкавита/milkavita_build/11.jpg" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+
+							<div class="page_number">23</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+
+							<p>
+								В 1977 году было принято решение о начале строительства в г. Гомеле молочного завода
+								на
+								новой площадке, а старый
+								гормолзавод предстояло реконструировать под фабрику мороженого, т.к. в городе не
+								было
+								специализированного предприятия по
+								производству данного продукта.
+								В структуру вступившего в строй нового молочного комбината входили: цех производства
+								цельномолочной продукции
+								производственной мощностью 230 тонн молока в смену, маслоцех (11 тонн в смену), цех
+								сушки молока (10 тонн в смену)
+								и шесть вспомогательных цехов: готовой продукции, тарный,
+								ремонтно-строительный,
+								электроцех, котельная, компрессорная. Общий объем перерабатываемого сырья составлял
+								450
+								тонн в смену. </p>
+							<img src="images/милкавита/milkavita_build/13.jpg" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+
+							<div class="page_number">24</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="8">
+					<div class="page_side_left">
+						<div class="working_area">
+
+							<img src="images/милкавита/milkavita_build/12.jpg" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+							<p>В 1990 году объем перерабатываемого сырья составлял 281,2 тыс. тонн в смену. В
+								октябре
+								этого же года в самостоятельную
+								единицу выделился цех мороженого. Сейчас – это СООО «Ингман мороженое».</p>
+							<p>
+								В 1991 году на территории молочного комбината начал работу новый цех детского
+								питания,
+								где вырабатывалась молочная
+								продукция для детей с трехмесячного возраста.</p>
+							<p>В 1992 году введен в эксплуатацию цех стерилизованных продуктов, оснащенный
+								современным
+								импортным оборудованием.</p>
+
+
+							<div class="page_number">25</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+
+							<img src="images/милкавита/milkavita_build/17.jpg" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+							<p>В 1994 году Гомельский молочный комбинат был преобразован в открытое акционерное
+								общество «Молочные продукты.
+							</p>
+							<p>В результате реформирования в 2005 г. в состав общества были включены: два филиала -
+								Добрушский и Лоевский
+								молокозаводы и три частных унитарных предприятия – ЧУП «Речица молоко» (г. Речица),
+								ЧУП
+								«Полесские сыры» (г.
+								Хойники) и Торговый дом «Молочное кружево» (г. Гомель).</p>
+							<p>В 2006-2008 гг. на заводе проведено масштабное техническое перевооружение
+								производства за
+								счет ввода в эксплуатацию
+								нового соответствующего передовым мировым технологиям оборудования.</p>
+
+							<div class="page_number">26</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="9">
+					<div class="page_side_left">
+						<div class="working_area">
+
+							<p>Для оптимизации производства Добрушский филиал ОАО «Молочные продукты» был
+								перепрофилирован: в настоящее время
+								занимается пошивом спецодежды, изготовлением гофротары, окон и дверей из пластика. А
+								в
+								2011 году ЧУП «Речица молоко»
+								и ЧУП «Полесские сыры» преобразованы в производственные участки головного
+								предприятия.
+							</p>
+							<p>9 января 2014 года ОАО «Молочные продукты» было переименовано в ОАО «Милкавита» и с
+								этого
+								дня компания открывает
+								новую страницу в своей истории.</p>
+							<h2>Об истории молочного производства за 8 минут</h2>
+							<div class="videoMilkavita">
+								<video id="milkavitaVideo" style="width: 450vw; max-width: 100%; height: 100%;" controls
+									onclick="openFullscreen(this)">
+									<source src="images/милкавита/ВидеоМилкавита.mp4" type="video/mp4">
+									Ваш браузер не поддерживает видео.
+								</video>
+							</div>
+							<div class="page_number">27</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+
+							<h1>Статьи из газеты</h1>
+							<div class="swiper newspaperSwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="images/милкавита/newspaper/Брыгадная форма.jpg"
+											alt="Фото 1"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Витаминнае харчаванне.jpg" alt="Фото 2">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Вытворчыя дасягненни.jpg" alt="Фото 3">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Гомельская правда.JPG" alt="Фото 4">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Дадзим насельництву.jpg" alt="Фото 5">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Добрасумленными и выканаучыми.jpg"
+											alt="Фото 6"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Звыш чатырнаццаци.jpg" alt="Фото 7">
+									</div>
+									<div class="swiper-slide"><img src="images/милкавита/newspaper/картінка.jpg"
+											alt="Фото 8"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Мікрабіёлаг Хойніцкага маслазавода.jpg"
+											alt="Фото 9"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Молочный комбинат.jpg" alt="Фото 10">
+									</div>
+
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/На здымку лабаранты-анализатары.jpg"
+											alt="Фото 11"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/На Хойніцкім маслазаводзе.jpg"
+											alt="Фото 12"></div>
+									<div class="swiper-slide"><img src="images/милкавита/newspaper/Нина Паулауна.jpg"
+											alt="Фото 13"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/ОАО Молочные продукты Стратегия эффективности.jpg"
+											alt="Фото 14"></div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Прадукцыю звыш плана.jpg" alt="Фото 15">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Торговая марка Стемол.jpg" alt="Фото 16">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/милкавита/newspaper/Удивлять и радовать.jpg" alt="Фото 17">
+									</div>
+								</div>
+
+								<div class="swiper-button-next newspaper-next"></div>
+								<div class="swiper-button-prev newspaper-prev"></div>
+							</div>
+							<div class="page_number">28</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="10">
+					<div class="page_side_left">
+						<div class="working_area">
+
+							<h1>Компания сегодня</h1>
+							<p>ОАО "Милкавита" сегодня — это современное предприятие, оснащённое высокотехнологичным
+								оборудованием ведущих
+								отечественных и зарубежных компаний. Так в области технологий и оборудования
+								партнерами
+								выступают широко известные и
+								заслуживающие доверия фирмы из Италии, Германии, Швеции, Австрии, Словакии, Польши и
+								др.
+								Производственная мощность
+								молокозавода позволяют перерабатывать около 1000 тонн молока в сутки и осуществлять
+								производство широкого
+								ассортимента
+								натуральных, конкурентоспособных и абсолютно безопасных молочных продуктов высокого
+								качества:
+							<ul>
+								<li>Молоко – 345 тонн</li>
+								<li>Кефир – 75 тонн</li>
+								<li>Творог – 15 тонн</li>
+								<li>Сметана – 30 тонн</li>
+								<li>Йогурт – 10 тонн</li>
+								<li>Масло сливочное – 20 тонн</li>
+								<li>Сыры – 11 тонн</li>
+							</ul>
+							</p>
+
+							<div class="page_number">29</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<div class="container">
+								<div class="image-wrapper">
+									<img src="images/милкавита/milkavita_build/2.jpg" alt="До">
+									<div class="image-wrapper after">
+										<img src="images/милкавита/milkvita.JPG" alt="После">
+									</div>
+								</div>
+								<div class="slider"></div>
+							</div>
+
+							<div class="page_number">30</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="11">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/милкавита/milkavita_today/2.JPG" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+							<p>Постоянный контроль качества продукции – важнейший аспект деятельности ОАО
+								«Милкавита».
+								Всё поступающее сырье,
+								технологические процессы и готовая продукция проходят строжайший многоступенчатый
+								лабораторный контроль на всех стадиях
+								производства. Кроме того, на предприятии используется закрытый тип производственного
+								процесса, при котором
+								непосредственный контакт персонала c продукцией реально сведён к минимуму.
+							</p>
+							<div class="page_number">31</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<p>
+								Для подтверждения качества и безопасности готовой продукции ОАО «Милкавита» проводит
+								работу не только по обязательной,
+								но и по добровольной государственной гигиенической регистрации и сертификации.
+							</p>
+							<p>
+								На предприятии действуют следующие системы:
+							</p>
+							<p>
+							<ul>
+								<li>система менеджмента качества соответствует требованиям СТБ ISO 9001;</li>
+								<li>система менеджмента безопасности пищевых продуктов соответствует требованиям СТБ
+									ИСО
+									22000;</li>
+								<li>система менеджмента безопасности пищевых продуктов соответствует требованиям
+									FSSC
+									22000;</li>
+								<li>система менеджмента безопасности пищевых продуктов на основе анализа опасностей
+									и
+									критических контрольных точек
+									соответствует требованиям СТБ 1470;</li>
+							</ul>
+							</p>
+							<p>
+								Более половины производимой продукции экспортируется. Среди стран экспортеров -
+								Россия,
+								Казахстан, Китай, Армения,
+								Украина, Грузия, Узбекистан, Таджикистан, Сирия, Кыргыстан, ОАЭ, Бангладеш, Турция,
+								Египет, Вьетнам и др. Основные
+								статьи экспорта: цельномолочная продукция, сухие молочные продукты, масло, сыры.
+							</p>
+							<div class="page_number">32</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="12">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/милкавита/milkavita_today/1.JPG" alt="Бутылки с молоком"
+								class="content-image-large" loading="lazy">
+							<p>
+								Предприятие владеет собственной сетью фирменной торговли на территории Республики
+								Беларусь, которая представлена 40
+								объектами.
+							</p>
+							<p>
+								Особое внимание на предприятии уделяется культуре производства, вопросам экологии и
+								санитарии, благоустройству цехов,
+								участков, территорий, условиям труда и быта работающих. Осуществляется помощь
+								пенсионерам и местным учреждениям
+								социальной сферы. Предприятие предоставляет сотрудникам социальный пакет.
+								Осуществляется
+								поддержка усилий власти в
+								развитии территории.
+							</p>
+							<div class="page_number">33</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<p>
+								ОАО «Милкавита» всегда стремится максимально учитывать желания своих потребителей и
+								развивать свой ассортимент в
+								соответствии с основными мировыми трендами и стандартами.
+							</p>
+							<p>
+								ОАО «Милкавита» прочно завоевало репутацию производителя высококачественной,
+								натуральной
+								продукции с непревзойденным
+								вкусом. Подтверждением тому служат многочисленные награды международных и
+								национальных
+								конкурсов.
+							</p>
+							<p>
+								ОАО «Милкавита» - ведущая компания, завоевавшая репутацию надежного и
+								профессионального
+								делового партнера, которому
+								можно доверять.
+							</p>
+							<p>
+								В истории предприятия были взлеты и падения. Менялось название, вводились в строй,
+								реконструировались цеха и участки, но
+								одно оставалось неизменным - высокое качество выпускаемой продукции при постоянно
+								увеличивающемся ассортименте.
+							</p>
+							<p>
+								Каждый день сотрудники компании вписывают новые страницы в новейшую историю
+								компании,
+								постоянно дополняя ее новыми
+								планами и достижениями.
+							</p>
+							<div class="page_number">34</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="13">
+					<div class="page_side_left">
+						<div class="working_area">
+							<h1>Сотрудники ОАО "Милкавита"</h1>
+							<div class="swiper employeesSwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/10.JPG"
+											alt="Фото 1"></div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/9.JPG"
+											alt="Фото 1"></div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/3.JPG"
+											alt="Фото 1"></div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/4.JPG"
+											alt="Фото 2">
+									</div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/5.JPG"
+											alt="Фото 3">
+									</div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/6.JPG"
+											alt="Фото 4"></div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/7.JPG"
+											alt="Фото 5"></div>
+									<div class="swiper-slide"><img src="images/милкавита/milkavita_today/8.JPG"
+											alt="Фото 6">
+									</div>
+								</div>
+
+								<div class="swiper-button-next employees-next"></div>
+								<div class="swiper-button-prev employees-prev"></div>
+							</div>
+							<div class="page_number">35</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Раздел 2. Продукция по республике Беларусь</h1>
+							<div class="containerProducr">
+
+								<div class="product">
+									<img src="images/милкавита/brand_logo/brand-logo-1-color.svg" alt="Milkavita">
+									<div class="product-content">
+										<h2 class="product-title">ТМ «Milkavita»</h2>
+										<p class="product-description">Под ТМ «Milkavita» выпускается цельномолочная
+											продукция (молоко с длительными
+											сроками реализации, сливки, творог, сметана), сухие молочные продукты,
+											сыры,
+											масло сливочное фасованное
+											и весовое.</p>
+										<button class="product-button" onclick="openModal('Продукция ТМ «Milkavita»', [
+												'images/1/Визуализация продукции 600х600р_300dpi/Бифитат/Бифитат-ТМ Milkavita-Стакан-2,5.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Бифитэль/Бифитэль-ТМ Milkavita-Пюрпак-лесная ягода.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Крем для взбивания/Крем сливочный-ТМ Milkavita-ТБС-33.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Масло сливочное/ДЛЯ ТОРГОВЛИ Масло ТМ Милкавита.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Масло сливочное/Масло-ТМ Milkavita-Фольга-72,5.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Молоко питьевое/Молоко-ТМ Milkavita-ТБС-1,5.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Белорусский классический.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Гауда Lux брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Голландский новый брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Грювер особый цилиндр.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Моцарелла брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Одерталь.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Пармезан брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Российский ранний цилиндр.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Сливочный цилиндр.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Сливочный-700-900г-пакет полимерый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Франциск брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Эдам Lux брус.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр весовой/Эммилорд цилиндр.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр колотый/Пармезан Lux Delicate-стакан-колотый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр тертый/Сыр тертый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Гауда Lux-500г-флоупак.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Голландский новый-500г-флоупак.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Грювер особый-700-900г-пакет полимерый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Пармезан Lux-180г-флоу пак.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Российский ранний-700-900г-пакет полимерый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Франциск Mild-180г-флоу пак.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Эдам Lux-180г-360г-флоупак.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр фасованный/Эммилорд-700-900г-пакет полимерый.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сливки питьевые/Сливки-ТМ Milkavita-ТБС-0,5-20.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сметана/Сметана-ТМ Milkavita-Стакан-10.jpg'
+											])">Продукция</button>
+										<button class="product-button three-d" onclick="open3DModel([
+													'https://3d-milka.vercel.app/smetanka',
+													'https://3d-milka.vercel.app/bifitatik',
+													'https://3d-milka.vercel.app/moloko_korobochka'
+												])">3D Модели</button>
+									</div>
+								</div>
+
+								<div class="product">
+									<img src="images/милкавита/brand_logo/brand-logo-4-color.svg" alt="Gustare">
+									<div class="product-content">
+										<h2 class="product-title">TM "Gustare"</h2>
+										<p class="product-description">Под ТМ «Gustare» выпускаются плавленые
+											сыры,пасты
+											сливочные,творожные сыры.</p>
+										<button class="product-button" onclick="openModal('Продукция ТМ «Gustare»', [
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр плавленый/Сыр плавленый-ТМ Milkavita-Контейнер-С белыми грибами.jpg',
+												'images/1/Визуализация продукции 600х600р_300dpi/Сыр плавленый/Сыр плавленый-ТМ Milkavita-Контейнер-Сливочный.jpg'
+												])">Продукция</button>
+										` <button class="product-button three-d" onclick="open3DModel([
+											'https://3d-milka.vercel.app/plavleniy_sir2',
+											'https://3d-milka.vercel.app/plavleniy_sir'
+										])">3D Модели</button>
+									</div>
+
+									<div class="page_number">36</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="14">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="product">
+								<img src="images/милкавита/brand_logo/brand-logo-3-color.svg" alt="Latte Barista">
+								<div class="product-content">
+									<h2 class="product-title">TM "Latte Barista"</h2>
+									<p class="product-description">
+										Под ТМ Latte Barista выпускается молоко и сливки для
+										использования как профессионалами,
+										так и любителями в приготовлении кофейных напитков в домашних условиях и
+										в
+										сегменте HoReCa.
+									</p>
+									<button class="product-button" onclick="openModal('Продукция ТМ «Latte Barista»', [
+									'images/1/Визуализация продукции 600х600р_300dpi/Молоко питьевое/Молоко-ТМ Milkavita-Latte Barista-3,2.jpg',
+									'images/1/Визуализация продукции 600х600р_300dpi/Сливки питьевые/Сливки-ТМ Milkavita-Latte Barista-10.jpg',
+									'images/1/Визуализация продукции 600х600р_300dpi/Сырки глазированные/Сырок-творожный_Latte-Barista_ванильный.png'
+									])">Продукция</button>
+									<button class="product-button three-d" onclick="open3DModel([
+											'https://3d-milka.vercel.app/barista',
+											'https://3d-milka.vercel.app/slivki_barista'
+										])">3D Модели</button>
+								</div>
+							</div>
+
+							<div class="product">
+								<img src="images/милкавита/brand_logo/brand-logo-2-color.svg" alt="Моя Славита">
+								<div class="product-content">
+									<h2 class="product-title">TM "Моя Славита"</h2>
+									<p class="product-description">
+										Под ТМ «Моя Славита» выпускается цельномолочная продукция: молоко с
+										короткими сроками реализации, плавленые
+										сыры, масло сливочное фасованное,
+										йогурты, творожные десерты, пудинги, сырки творожные глазированные.
+									</p>
+									<button class="product-button" onclick="openModal('Продукция ТМ «Моя Славита»', [
+										'images/1/Визуализация продукции 600х600р_300dpi/Десерт творожный Сказка/СказкаВаниль.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Йогурт/ЙогуртПленка-Клубника.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Йогурт/ЙогуртТМ Моя СлавитаБэльМалина.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Йогурт/ЙогуртТМ МояСлавитаВишня.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Йогурт/ЙогуртТМ Моя СлавитАнанас.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Кефир/Кефир-ТМ Моя Славита-Пленка-1,5.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Кефир/Кефир-ТМ Моя Славита-ПЭТ-3,2.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Масло сливочное/Масло-ТМ Моя Славита-Фольга-61,5.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Молоко питьевое/Молоко-ТМ Моя Славита-Пленка-3,0.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Молоко питьевое/Молоко-ТМ Моя Славита-ПЭТ-1,5.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Пудинг творожный/Пудинг творожный-ТМ Моя Славита-БОПП-Ваниль.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Ряженка/Ряженка-ТМ Моя Славита-ПЭТ-900-3,2.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сметана/Сметана-ТМ Моя Славита-Пленка-15.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сметана/Сметана-ТМ Моя Славита-Стакан-20.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сыворотка/Сыворотка-ТМ Моя Славита-Пленка.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сыр плавленый/Сыр плавленый-ТМ Моя Славита-с белыми грибами.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сырки глазированные/Сырок творожный-ТМ Моя Славита-БОПП-ваниль.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Сырки глазированные/Сырок творожный-ТМ Моя Славита-БОПП-картошка.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Творог классический/Творог-ТМ Моя Славита-БОПП-5.jpg',
+										'images/1/Визуализация продукции 600х600р_300dpi/Творог мягкий/Творог мягкий-ТМ Моя Славита-БОПП-10.jpg'
+									])">Продукция</button>
+									<button class="product-button three-d" onclick="open3DModel([
+											'https://3d-milka.vercel.app/sirok',
+											'https://3d-milka.vercel.app/moloko'
+										])">3D Модели</button>
+								</div>
+							</div>
+							<div class="page_number">37</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<img src="images/history/cown2.jpg" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">38</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- Пустые страницы -->
+
+				<div class="page_project page-open" data-number="15">
+					<div class="page_side_left">
+						<div class="working_area">
+							<h1>Раздел 3. Продукция в дальнее и ближнее зарубежье</h1>
+							<p>ОАО «Милкавита» – это современное предприятие, специализирующееся на производстве
+								высококачественной молочной продукции.
+								Компания использует передовые технологии и строгий контроль качества на всех этапах
+								производства, что позволяет
+								предлагать потребителям натуральные и полезные продукты.</p>
+							<p>
+								Более половины производимой продукции экспортируется. Среди стран экспортеров -
+								Россия,
+								Казахстан, Китай, Армения,
+								Украина, Грузия, Узбекистан, Таджикистан, Сирия, Кыргызстан, ОАЭ, Бангладеш, Турция,
+								Египет, Вьетнам и др. Основные
+								статьи экспорта: цельномолочная продукция, сухие молочные продукты, масло, сыры.
+							</p>
+							<img src="images/милкавита/exsport/map.svg" alt="Карта" class="content-image-large"
+								loading="lazy">
+							<div class="page_number">39</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1 style="font-size: 30px;">ОАО «Милкивата» выпускает продукцию на эскпорт под
+								известными
+								брендами</h1>
+							<p>Для рынка России:</p>
+
+							<p>«Свитлогорье» — бренд, который представляет продукцию компании в России.
+								Продукты
+								под этим брендом включают в
+								себя молоко, сливки, кефир, сметана, творог и другие изделия из молока. Бренд
+								«Свитлогорье»
+								позиционируется как производитель
+								натуральных и качественных молочных товаров.</p>
+							<div class="product">
+								<img src="images/милкавита/exsport/свитогорье.webp" alt="Свитлогорье">
+								<div class="product-content">
+									<h2 class="product-title">«Свитлогорье»</h2>
+									<p class="product-description" style="font-size: 16px;">«Свитлогорье»
+										высоко ценится за натуральность и отличные вкусовые качества.
+									</p>
+									<div class="product-buttons">
+										<button class="product-button" onclick="openModal('Продукция «Свитлогорье»', [
+											'images/милкавита/свитлогорье/МолокоПитьевое.png',
+											'images/милкавита/свитлогорье/МолокоСинее.png',
+											'images/милкавита/свитлогорье/сливки10.png',
+											'images/милкавита/свитлогорье/сливки20.png',
+											'images/милкавита/свитлогорье/сливки33.png'
+										])">Продукция</button>
+
+									</div>
+								</div>
+							</div>
+							<p>
+								В 2023 г. компания запустила собственный бренд
+								«Софийское подворье» с широким ассортиментом цельно- и
+								кисломолочной продукции, которая
+								производится на
+								ведущем молочном предприятии Республики Беларусь ОАО
+								«Милкавита».
+							</p>
+
+							<div class="page_number">40</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="16">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="product">
+								<img src="images/милкавита/exsport/софийское подворье.jpg.png" alt="Софийское подворье">
+								<div class="product-content">
+									<h2 class="product-title">«Софийское подворье»</h2>
+									<p class="product-description" style="font-size: 16px;">
+										Бренд
+										ассоциируется с качественными продуктами, произведёнными с учётом традиций и
+										современных
+										технологий.
+									</p>
+									<button class="product-button" onclick="openModal('Продукция «Софийское подворье»', [
+									'images/милкавита/софийское/молоко1,5.png',
+									'images/милкавита/софийское/молоко2,5.png',
+									'images/милкавита/софийское/молоко3,2.png',
+									'images/милкавита/софийское/молокоОтборное.png',
+									'images/милкавита/софийское/сливки10.png',
+									'images/милкавита/софийское/сливки20.png',
+									'images/милкавита/софийское/сливки33.png',
+									'images/милкавита/софийское/сливкиКорич10.png'
+									])">Продукция</button>
+								</div>
+							</div>
+							<p>Для рынка Китая:</p>
+							<p>«Здрава» — бренд, под которым Милкавита продаёт молочные продукты в Китае. В рамках
+								этого
+								бренда предлагаются как молоко,
+								так и сухая молочная продукция, включая порошковое молоко и молочные смеси.</p>
+							<div class="product">
+								<img src="images/милкавита/exsport/здрава.webp.png" alt="Здрава">
+								<div class="product-content">
+									<h2 class="product-title">«Здрава»</h2>
+									<p class="product-description" style="font-size: 16px;">
+										«Здрава» ассоциируется с
+										высококачественными и безопасными молочными продуктами.
+									</p>
+									<button class="product-button" onclick="openModal('Продукция «Здрава»', [
+									'images/милкавита/здрава/1.webp.png',
+									'images/милкавита/здрава/2.webp.png'
+									])">Продукция</button>
+								</div>
+							</div>
+						</div>
+						<div class="page_number">41</div>
+					</div>
+
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Раздел 4. Знаки качества</h1>
+							<div class="years">
+								<script>
+									for (let year = 2015; year <= 2025; year++) {
+										document.write(`<div class='year' onclick='openAwardsModal(${year})'>${year} год</div>`);
+									}
+								</script>
+							</div>
+							<div class="page_number">42</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="16">
+					<div class="page_side_left">
+						<div class="working_area">
+							<h1>Сертификаты</h1>
+							<div class="swiper certificatesSwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/Certificate-Milkavita_Gomel-_2024_ENG_FSSC-v6-Certification22000-550x778.jpg"
+											alt="Фото 1"></div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/Certificate-Milkavita_Gomel-_2024_RUS_FSSC-v6-Certification22000-550x778.jpg"
+											alt="Фото 2">
+									</div>
+									<div class="swiper-slide"><img src="images/Сертификаты/ISO 45001_2018.jpg"
+											alt="Фото 3">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/ISO-9001-2015-анг-550x778.jpg" alt="Фото 4">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/ISO-9001-2015-рус-550x778.jpg" alt="Фото 5">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/НАССР_Milkavita_рус-550x778.jpg" alt="Фото 6">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/Сертификат-НАССР-англ-548x778.jpg" alt="Фото 7">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/Сертификат-НАССР-рус-548x778.jpg" alt="Фото 8">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/сертификат-новый-англ-551x778.jpg" alt="Фото 9">
+									</div>
+									<div class="swiper-slide"><img
+											src="images/Сертификаты/сертификат-новый-рус-553x778.jpg" alt="Фото 10">
+									</div>
+
+									<div class="swiper-slide"><img src="images/Сертификаты/СТБ ISO 14001.jpg"
+											alt="Фото 11"></div>
+									<div class="swiper-slide"><img src="images/Сертификаты/Халяль-анг_2024-550x778.jpg"
+											alt="Фото 12">
+									</div>
+									<div class="swiper-slide"><img src="images/Сертификаты/Халяль-рус_2024-550x778.jpg"
+											alt="Фото 13">
+									</div>
+
+								</div>
+								<div class="swiper-pagination certificates-pagination"></div>
+								<div class="swiper-button-next certificates-next"></div>
+								<div class="swiper-button-prev certificates-prev"></div>
+							</div>
+							<div class="page_number">43</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Раздел 5. Молочные базы</h1>
+							<p>Молочные базы являются неотъемлемой частью агропромышленного комплекса, обеспечивая
+								бесперебойные поставки молока и
+								молочной продукции. Их деятельность поддерживает экономику региона и способствует
+								развитию сельского хозяйства. В этом
+								перечне собраны ведущие молочные базы, работающие на благо потребителей.
+								Cписок молочных баз, которые вносят значительный вклад в молочную промышленность:</p>
+							<div class="two-column-list">
+								<ul>
+									<li>21 съезд КПСС</li>
+									<li>Борщовский</li>
+									<li>Брагинагросервис</li>
+									<li>Брагинка</li>
+									<li>Брилево</li>
+									<li>Бывальки</li>
+									<li>Гомельская птицефабрика</li>
+									<li>Демеховское</li>
+									<li>Дзержинский - Агро</li>
+									<li>Жгунское</li>
+
+
+								</ul>
+							</div>
+							<div class="page_number">44</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-open" data-number="16">
+					<div class="page_side_left">
+						<div class="working_area">
+							<div class="two-column-list">
+								<ul>
+									<li>Знамя родины</li>
+									<li>Исток</li>
+									<li>Калининский</li>
+									<li>Красная Буда</li>
+									<li>Круговец</li>
+									<li>Крупец</li>
+									<li>Кузьминичи</li>
+									<li>Малиновка-Агро</li>
+									<li>Мележа</li>
+									<li>Оборона</li>
+									<li>Оревичи</li>
+									<li>Рассвет</li>
+									<li>Речицкий-Агро</li>
+									<li>Славмол</li>
+									<li>Сож</li>
+									<li>Стреличево</li>
+									<li>Судково</li>
+								</ul>
+								<ul>
+
+									<li>Тереховка-агро</li>
+									<li>Уваровичиэлит</li>
+									<li>Урицкое</li>
+									<li>Утевское</li>
+									<li>Фрунзе - Агро</li>
+									<li>Хальч</li>
+									<li>Южный</li>
+								</ul>
+							</div>
+							<div class="page_number">45</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<div class="working_area">
+							<h1>Раздел 6. Игра «Весёлый молочник»</h1>
+							<div class="game-section">
+								<img src="images/гифкаИгра.gif" alt="Превью игры" class="game-preview">
+								<a href="https://milka-game.vercel.app/" target="_blank"
+									class="play-game-button">Играть</a>
+							</div>
+							<div class="page_number">46</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="page_project page-last page-open" data-number="25">
+					<div class="page_side_left">
+						<div class="working_area">
+							<img src="images/history/milk.jpg" alt="Бутылки с молоком" class="content-image-full"
+								loading="lazy">
+							<div class="page_number">47</div>
+						</div>
+					</div>
+
+					<div class="page_side_right">
+						<img src="images/book_backcover.jpg" alt="Задняя обложка" class="picture_book" loading="lazy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Модальное окно -->
+	<div class="modal" id="productModal">
+		<div class="modal-content">
+			<h1 class="modal-title" id="modalTitle"></h1>
+			<div class="modal-slider">
+				<button class="prev-button">◀</button>
+				<img alt="Product Image" id="sliderImage" style="display: none;">
+				<button class="next-button">▶</button>
+			</div>
+			<button class="close-modal">Закрыть</button>
+		</div>
+	</div>
+
+	<!-- <div class="gallery-modal" id="gallery-modal">
+		<div class="gallery-modal-content">
+			<span class="close" onclick="closeGalleryModal()">&times;</span>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper" id="gallery-slider"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="awards-modal" class="awards-modal">
+		<div class="awards-modal-content">
+			<div class="awards-modal-header">
+				<h2 id="awards-modal-title" class="awards-modal-title">Награды за 2015</h2>
+				<button class="awards-modal-close" onclick="closeAwardsModal()">×</button>
+			</div>
+			<div class="awards-swiper">
+				<div id="awards-slider" class="swiper-wrapper">
+					<!-- Слайды будут добавляться динамически -->
+				</div>
+				<div class="awards-swiper-button-next"> > </div>
+				<div class="awards-swiper-button-prev">
+					< </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Модальное окно для 3D модели -->
+	<div class="modal-3d" id="modal3D">
+		<div class="modal-3d-content">
+			<div class="modal-3d-header">
+				<h2 class="modal-3d-title">3D Модели</h2>
+				<button class="modal-3d-close" onclick="close3DModal()">&times;</button>
+			</div>
+			<div class="modal-3d-swiper swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<iframe class="modal-3d-iframe" id="modelFrame1" src="" allowfullscreen></iframe>
+					</div>
+					<div class="swiper-slide">
+						<iframe class="modal-3d-iframe" id="modelFrame2" src="" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>
+
+<!-- do posle -->
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const slider = document.querySelector(".slider");
+		const afterImage = document.querySelector(".image-wrapper.after");
+		let isDragging = false;
+
+		slider.addEventListener("mousedown", (e) => {
+			isDragging = true;
+			document.body.style.userSelect = "none"; // Отключаем выделение текста
+		});
+
+		document.addEventListener("mouseup", () => {
+			isDragging = false;
+			document.body.style.userSelect = "auto";
+		});
+
+		document.addEventListener("mousemove", (e) => {
+			if (!isDragging) return;
+
+			const container = document.querySelector(".container");
+			const rect = container.getBoundingClientRect();
+			let offsetX = e.clientX - rect.left; // Получаем положение курсора относительно контейнера
+
+			// Ограничиваем движение ползунка в пределах контейнера
+			if (offsetX < 0) offsetX = 0;
+			if (offsetX > rect.width) offsetX = rect.width;
+
+			// Двигаем ползунок и изменяем ширину "after"-изображения
+			const percentage = (offsetX / rect.width) * 100;
+			slider.style.left = `${percentage}%`;
+			afterImage.style.width = `${percentage}%`;
+		});
+	});
+
+</script>
+
+<!-- swiper -->
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const swiper = new Swiper('.certificatesSwiper', {
+			navigation: {
+				nextEl: '.certificates-next',
+				prevEl: '.certificates-prev',
+			},
+			loop: true,
+		});
+	});
+
+
+	// Переназначаем кнопки для перелистывания слайдера вместо книги
+	let leftButton = document.getElementById('pressLeft');
+	let rightButton = document.getElementById('pressRight');
+
+	if (leftButton && rightButton) {
+		leftButton.removeEventListener('click', leftClick); // Убираем старый обработчик
+		rightButton.removeEventListener('click', rightClick);
+
+		leftButton.addEventListener('click', function (e) {
+			e.stopPropagation(); // Останавливаем всплытие
+			swiper.slidePrev(); // Листаем слайдер назад
+		});
+
+		rightButton.addEventListener('click', function (e) {
+			e.stopPropagation(); // Останавливаем всплытие
+			swiper.slideNext(); // Листаем слайдер вперед
+		});
+	}
+
+
+</script>
+
+<!-- Модальное окно продукции -->
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		let currentImageIndex = 0;
+		let images = [];
+
+		function updateSliderImage() {
+			let sliderImage = document.getElementById("sliderImage");
+			if (images.length > 0) {
+				sliderImage.src = images[currentImageIndex];
+				sliderImage.style.display = "block"; // Показываем изображение, когда оно загружено
+			} else {
+				sliderImage.style.display = "none"; // Скрываем, если картинок нет
+			}
+		}
+
+		window.openModal = function (title, imageArray) {
+			document.getElementById("modalTitle").innerText = title;
+			images = imageArray;
+			currentImageIndex = 0;
+
+			// Проверяем, есть ли изображения перед обновлением
+			if (images.length > 0) {
+				updateSliderImage();
+			} else {
+				console.warn("Нет изображений для отображения!");
+			}
+
+			document.getElementById("productModal").classList.add("show");
+		};
+
+		function closeModal() {
+			document.getElementById("productModal").classList.remove("show");
+		}
+
+		function nextImage() {
+			if (images.length > 1) {
+				currentImageIndex = (currentImageIndex + 1) % images.length;
+				updateSliderImage();
+			}
+		}
+
+		function prevImage() {
+			if (images.length > 1) {
+				currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+				updateSliderImage();
+			}
+		}
+
+		document.querySelector(".close-modal").addEventListener("click", closeModal);
+		document.querySelector(".next-button").addEventListener("click", nextImage);
+		document.querySelector(".prev-button").addEventListener("click", prevImage);
+	});
+
+</script>
+
+<!-- video -->
+<script>
+	function openFullscreen(video) {
+		if (video.requestFullscreen) {
+			video.requestFullscreen();
+		} else if (video.mozRequestFullScreen) { // Firefox
+			video.mozRequestFullScreen();
+		} else if (video.webkitRequestFullscreen) { // Chrome, Safari, Opera
+			video.webkitRequestFullscreen();
+		} else if (video.msRequestFullscreen) { // IE/Edge
+			video.msRequestFullscreen();
+		}
+	}
+</script>
+
+<script>
+	let awardsSwiper = null;
+	const awardsModal = document.getElementById('awards-modal');
+	const awardsModalTitle = document.getElementById('awards-modal-title');
+	const awardsSlider = document.getElementById('awards-slider');
+
+	function openAwardsModal(year) {
+		const modal = document.querySelector('.awards-modal');
+		const modalTitle = modal.querySelector('.awards-modal-title');
+		modalTitle.textContent = `Награды за ${year} год`;
+		modal.style.display = 'flex';
+
+		// Initialize Swiper
+		awardsSwiper = new Swiper('.awards-swiper', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			centeredSlides: true,
+			speed: 400,
+			effect: 'slide',
+			navigation: {
+				nextEl: '.awards-swiper-button-next',
+				prevEl: '.awards-swiper-button-prev',
+			}
+		});
+
+		getAwardsImages(year);
+	}
+
+	async function getAwardsImages(year) {
+		const yearShort = year.toString().slice(-2);
+		let imageCount = 1;
+		const formats = ['jpg', 'jpeg', 'png'];
+		const loadedImages = [];
+
+		while (true) {
+			let imageFound = false;
+
+			for (const format of formats) {
+				const imagePath = `images/Награды/${yearShort}/${year}_${imageCount}.${format}`;
+				try {
+					const exists = await checkImageExists(imagePath);
+					if (exists) {
+						loadedImages.push(imagePath);
+						imageFound = true;
+						break;
+					}
+				} catch (error) {
+					console.error(`Ошибка при проверке изображения: ${imagePath}`, error);
+				}
+			}
+
+			if (!imageFound) {
+				break;
+			}
+
+			imageCount++;
+		}
+
+		awardsSlider.innerHTML = '';
+
+		loadedImages.forEach((imagePath, index) => {
+			const slide = document.createElement('div');
+			slide.className = 'swiper-slide';
+
+			const img = new Image();
+			img.src = imagePath;
+			img.alt = `Награда ${index + 1}`;
+			img.style.opacity = '0';
+			img.style.transition = 'opacity 0.3s ease';
+
+			img.onload = () => {
+				img.style.opacity = '1';
+			};
+
+			// Добавляем обработчик клика для открытия/закрытия изображения
+			img.addEventListener('click', () => toggleFullscreen(img));
+
+			slide.appendChild(img);
+			awardsSlider.appendChild(slide);
+		});
+
+		awardsSwiper.update();
+
+		if (loadedImages.length > 1) {
+			awardsSwiper.params.loop = true;
+			awardsSwiper.update();
+		}
+
+		if (loadedImages.length === 0) {
+			const noImagesSlide = document.createElement('div');
+			noImagesSlide.className = 'swiper-slide';
+			noImagesSlide.innerHTML = '<div style="color: #6796c2; font-size: 20px;">Награды за этот год отсутствуют</div>';
+			awardsSlider.appendChild(noImagesSlide);
+			awardsSwiper.update();
+		}
+	}
+
+	function toggleFullscreen(img) {
+		const fullscreenContainer = document.querySelector('.fullscreen-image');
+
+		if (!fullscreenContainer) {
+			// Создаем контейнер для полноэкранного режима
+			const container = document.createElement('div');
+			container.className = 'fullscreen-image';
+
+			const fullscreenImg = new Image();
+			fullscreenImg.src = img.src;
+			fullscreenImg.alt = img.alt;
+
+			container.appendChild(fullscreenImg);
+			document.body.appendChild(container);
+
+			// Добавляем обработчик клика для закрытия
+			container.addEventListener('click', () => {
+				container.remove();
+			});
+		} else {
+			// Если контейнер уже существует, удаляем его
+			fullscreenContainer.remove();
+		}
+	}
+
+	function checkImageExists(url) {
+		return new Promise((resolve) => {
+			const img = new Image();
+			img.onload = () => resolve(true);
+			img.onerror = () => resolve(false);
+			img.src = url;
+		});
+	}
+
+	function closeAwardsModal() {
+		awardsModal.style.display = 'none';
+		if (awardsSwiper) {
+			awardsSwiper.destroy();
+			awardsSwiper = null;
+		}
+		// Удаляем полноэкранное изображение при закрытии модального окна
+		const fullscreenContainer = document.querySelector('.fullscreen-image');
+		if (fullscreenContainer) {
+			fullscreenContainer.remove();
+		}
+	}
+
+	awardsModal.addEventListener('click', (e) => {
+		if (e.target === awardsModal) {
+			closeAwardsModal();
+		}
+	});
+
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape' && awardsModal.style.display === 'flex') {
+			closeAwardsModal();
+		}
+		// Закрываем полноэкранное изображение по нажатию Escape
+		if (e.key === 'Escape') {
+			const fullscreenContainer = document.querySelector('.fullscreen-image');
+			if (fullscreenContainer) {
+				fullscreenContainer.remove();
+			}
+		}
+	});
+
+	// Функция для открытия/закрытия полноэкранного режима изображения
+	function toggleFullscreen(img) {
+		const fullscreenContainer = document.querySelector('.fullscreen-image');
+
+		if (!fullscreenContainer) {
+			// Создаем контейнер для полноэкранного режима
+			const container = document.createElement('div');
+			container.className = 'fullscreen-image';
+
+			const fullscreenImg = new Image();
+			fullscreenImg.src = img.src;
+			fullscreenImg.alt = img.alt;
+
+			container.appendChild(fullscreenImg);
+			document.body.appendChild(container);
+
+			// Добавляем обработчик клика для закрытия
+			container.addEventListener('click', () => {
+				container.remove();
+			});
+		} else {
+			// Если контейнер уже существует, удаляем его
+			fullscreenContainer.remove();
+		}
+	}
+
+	// Добавляем обработчики кликов для всех изображений в слайдерах
+	document.addEventListener('DOMContentLoaded', function () {
+		// Обработчики для контентных изображений
+		const contentImages = document.querySelectorAll('.content-image-left, .content-image-right, .content-image-large');
+		contentImages.forEach(img => {
+			img.addEventListener('click', () => toggleFullscreen(img));
+		});
+
+		// Обработчики для изображений в слайдерах
+		const sliderImages = document.querySelectorAll('.swiper-slide img');
+		sliderImages.forEach(img => {
+			img.addEventListener('click', () => toggleFullscreen(img));
+		});
+	});
+
+	// Закрытие полноэкранного режима по нажатию Escape
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape') {
+			const fullscreenContainer = document.querySelector('.fullscreen-image');
+			if (fullscreenContainer) {
+				fullscreenContainer.remove();
+			}
+		}
+	});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		// Инициализация слайдера для газетных статей
+		const newspaperSwiper = new Swiper(".newspaperSwiper", {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			navigation: {
+				nextEl: ".newspaper-next",
+				prevEl: ".newspaper-prev",
+			},
+			effect: "fade",
+			fadeEffect: {
+				crossFade: true
+			}
+		});
+
+		// Инициализация слайдера для сотрудников
+		const employeesSwiper = new Swiper(".employeesSwiper", {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			navigation: {
+				nextEl: ".employees-next",
+				prevEl: ".employees-prev",
+			},
+			effect: "fade",
+			fadeEffect: {
+				crossFade: true
+			}
+		});
+
+		// Инициализация слайдера для сертификатов
+		const certificatesSwiper = new Swiper('.certificatesSwiper', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			speed: 800,
+			grabCursor: true,
+			pagination: {
+				el: '.certificates-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.certificates-next',
+				prevEl: '.certificates-prev',
+			},
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			}
+		});
+
+
+	});
+</script>
